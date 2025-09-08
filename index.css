@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+.section{
+    background: green;
+    border: 1px solid;
+    margin-bottom: 2px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+@media (min-width: 768px){
+    .section{
+        width: 49%;
+        float: left;
+        margin-left: 0.6%;
+        height: 100px;
+    }
+    
+}
