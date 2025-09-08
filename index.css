@@ -26,3 +26,54 @@
     }
     
 }
+
+/* css for image responsive */
+
+ .image-container{
+ width: 100%;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 15px;
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* css for nav bar */
+
+.nav-container{
+    background-color: grey;
+    width: 100%;
+    margin: 4px auto;
+    padding: 10px;
+}
+
+.nav-container li{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-container li a {
+text-decoration: none;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width:768px){
+    .nav-container li{
+        width: 20%;
+        float: left;
+    }
+}
+
+.nav-container ul::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
